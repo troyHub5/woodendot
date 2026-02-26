@@ -8,7 +8,7 @@ const swiper1 = new Swiper('.swiper1', {
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.pagination1',
   },
 
     
@@ -19,19 +19,12 @@ const swiper2 = new Swiper('.swiper2', {
   direction: 'horizontal',
   loop: true,
   dynamicBullets: true,
-  
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.pagination2',
   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  
+    
 });
 
